@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-image: url(./Images/sport.jpg);
+        }
+        *{
+            box-sizing: border-box;
+        }
+        label{
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        input{
+            padding: 15px;
+            margin: 5px 10px 20px 0;
+            display: inline-block;
+            border: none;
+            background: whitesmoke;
+            width: 100%;
+        }
+        .middle{
+            justify-content:center;
+            display: flex;
+            padding: 10px;
+            margin-top: 85px;
+        }
+        input:focus{
+            background-color:white;
+        }
+        form{
+            padding: 25px;
+            border: solid gray;
+            width: 450px;
+        }
+        h1{
+            color: darkcyan;
+            text-align: center;
+        }
+        button{
+            background-color:skyblue;
+            color: white;
+            padding: 10px;
+            border:none;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover{
+            color: skyblue;
+            background-color:blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <div class="middle">
+        <form>
+            <h1>LOGIN</h1><br>
+            <hr><br>
+            <label for="uname">Username:</label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="psw">Password:</label>
+            <input type="text" placeholder="Enter Password" name="psw" required>
+            <button type="submit" class="login">LOGIN</button><br><br>
+            <h4>Don't have an account? <a href="./Signup.html">Sign-up</a></h4>
+        </form>
+    </div>
+    <h1><a href="../Cricket_Academy/cricketAcademy.html">Back To Home Page</a></h1>
+    
+</body>
+</html>
